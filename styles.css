@@ -1,0 +1,23 @@
+body {
+  background: rgb(245, 145, 108);
+  font-family: Lato;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-tittle,
+.site-subtittle {
+  color: whitesmoke;
+  text-align: center;
+}
