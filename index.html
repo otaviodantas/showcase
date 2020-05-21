@@ -2,53 +2,89 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Otávio Mendonça</title>
-	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otávio Dantas</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main/socialbuttons.css">
+    <link rel="stylesheet" href="css/header/nav__header.css">
+    <link rel="stylesheet" href="css/main/background__main.css">
+    <link rel="stylesheet" href="css/main/text.css">
+    <link rel="stylesheet" href="css/main/skill.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
 
-<body>
-	<header>
-		<div class="menu">
-			<ul>
-				<li class="option-text"><a href="#">Sobre</a> </a></li>
-				<li class="option-text"><a href="#">Portifólio</a></li>
-				<li class="option-text"><a href="#">Contato</a></li>
-			</ul>
-		</div>
+<body class="container">
+    <header>
+        <section class="menu">
+            <ul>
+                <li class="menu__text"><a href="#">Sobre</a> </a></li>
+                <li class="menu__text"><a href="#">Portifólio</a></li>
+                <li class="menu__text"><a href="#">Contato</a></li>
+            </ul>
+        </section>
+    </header>
 
-		<div class="middle">
-			<a class="btn" href="#">
-				<i class="far fa-envelope"></i>
-			</a>
-			<a class="btn" href="#">
-				<i class="fab fa-linkedin-in"></i>
-			</a>
-			<a class="btn" href="#">
-				<i class="fab fa-medium-m"></i>
-			</a>
-			<a class="btn" href="#">
-				<i class="fab fa-instagram"></i>
-			</a>
-			</a>
-		</div>
-	</header>
+    <main class="father">
+        <section class="backgorund">
+            <img class="background__wave" src="img/blober.svg" />
+            <img class="background__central" src="img/main.png" alt="Pessoa usando o notebook" />
+            <img class="background__blob2" src="img/blob2.svg">
+            <img class="background__blob3" src="img/blob3.svg">
+        </section>
 
-	<main>
-		<div class="first-impression">
-			<div class="img-main">
-				<img src="img/main2.png" alt="Pessoa usando o notebook">
-			</div>
-			<div class="name-main">
-				<h1 class="site-tittle">Otávio Mendonça</h1>
-				<h2 class="site-subtittle">Python developer</h2>
-			</div>
-		</div>
-	</main>
+        <section class="apresentation">
+            <h1 class="apresentation__tittle">Olá, eu sou o Otávio</h1>
+            <h2 class="apresentation__subtittle">Desenvolvedor.py</h2>
+            <p class="apresentation__sinops">Estudante de engenharia, apaixonado por Python, Machine Learning e afins,
+            </p>aspirante em desenvolvimento Front-end, com um toque de Designer.</p>
+            <p class="apresentation__email">Email:</p>
+            <p class="apresentation__sourceemail">otavio-dantas@live.com</p>
+            <div class="social-buttons">
+                <a class="btn" href="#">
+                    <i class="far fa-envelope"></i>
+                </a>
+                <a class="btn" href="https://www.linkedin.com/in/ot%C3%A1vio-mendon%C3%A7a-694b75180/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="btn" href="#">
+                    <i class="fab fa-medium-m"></i>
+                </a>
+                <a class="btn" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </a>
+            </div>
+        </section>
 
+        <section class="interation">
+            <ul class="interation__list">
+                <li class="interation__skill python">
+                    <a href="#"><i class="fab fa-python"></i>Python</a>
+                </li>
+                <li class="interation__skill data">
+                    <a href="#"><i class="fas fa-robot"></i>Data Science</a>
+                </li>
+                <li class="interation__skill html">
+                    <a href=""><i class="fas fa-file-code"></i>HTML/CSS</a>
+                </li>
+                <li class="interation__skill js">
+                    <a href=""><i class="fab fa-js"></i>JavaScript</a> 
+                </li>
+                <li class="interation__skill designer">
+                    <i class="fas fa-pen-nib"></i>Designer 
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
 </body>
 
 </html>

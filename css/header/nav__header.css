@@ -1,0 +1,23 @@
+.menu {
+  position: absolute;
+  left: 2.5vh;
+  top: 2.5vh;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 5px;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu__text {
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}

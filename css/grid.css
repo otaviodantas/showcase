@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template: 10vh auto auto/auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  background: whitesmoke;
+  grid-area: header;
+  box-shadow: 0 5px 15px -5px #00000070;
+  z-index: 5;
+}
+
+main {
+  background-color: white;
+  grid-area: main;
+}
+
+footer {
+  background: indianred;
+  grid-area: footer;
+}

@@ -1,0 +1,32 @@
+.interation {
+  height: 100vh;
+}
+
+.interation__list {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 80%;
+}
+
+.interation__skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 80px;
+  width: 200px;
+  list-style: none;
+  /* border: 2px solid silver; */
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+}
+
+.fas.fa-pen-nib {
+  color: rgb(246, 248, 130);
+  left: 10%;
+  position: absolute;
+  font-size: 30px;
+}

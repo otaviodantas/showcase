@@ -1,0 +1,39 @@
+.apresentation {
+  position: absolute;
+  right: 30vh;
+  top: 25vh;
+  z-index: 3;
+}
+
+.apresentation__tittle {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #0377c4;
+  padding: 10px;
+}
+
+.apresentation__subtittle {
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  background: #0377c4;
+  display: inline;
+  padding: 5px 10px;
+}
+
+.apresentation__sinops {
+  margin-top: 40px;
+}
+
+.apresentation__email {
+  margin-top: 40px;
+  margin-bottom: -3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.apresentation__sourceemail {
+  display: inline;
+}
