@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 80%;
+  top: 85%;
 }
 
 .interation__skill {
@@ -24,9 +24,27 @@
   position: relative;
 }
 
+.interation__skill:hover {
+  background-color: skyblue;
+}
+
+.fab.fa-python,
+.fas.fa-robot,
+.fas.fa-file-code,
+.fab.fa-js,
 .fas.fa-pen-nib {
-  color: rgb(246, 248, 130);
+  color: rgb(35, 203, 167);
   left: 10%;
   position: absolute;
   font-size: 30px;
+  top: 25px;
+}
+
+.interation__skill__designer,
+.interation__skill__python,
+.interation__skill__html,
+.interation__skill__data,
+.interation__skill__js {
+  font-weight: bold;
+  color: rgb(4, 147, 114);
 }
