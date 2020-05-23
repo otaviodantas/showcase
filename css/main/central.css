@@ -1,7 +1,20 @@
+.central__container {
+  display: grid;
+  margin-top: 10vh;
+  grid-template: auto/1fr 1fr;
+  grid-template-areas: "img texto";
+}
+
+.central__img {
+  width: 600px;
+  grid-area: img;
+}
+
 .apresentation {
-  position: absolute;
-  right: 30vh;
-  top: 25vh;
+  grid-area: texto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   z-index: 3;
 }
 

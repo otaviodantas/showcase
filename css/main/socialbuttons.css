@@ -1,6 +1,6 @@
 .social-buttons {
-  position: absolute;
-  top: 43vh;
+  display: flex;
+  justify-content: left;
   text-align: center;
   z-index: 3;
 }

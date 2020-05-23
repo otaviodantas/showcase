@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template: 10vh auto auto/auto;
+  grid-template: 10vh 100vh auto/auto;
   grid-template-areas:
     "header"
     "main"
@@ -17,6 +17,9 @@ header {
 main {
   background-color: white;
   grid-area: main;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer {

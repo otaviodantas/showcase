@@ -1,12 +1,7 @@
-.interation {
-  height: 100vh;
-}
-
 .interation__list {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 85%;
 }
 
 .interation__skill {
@@ -16,12 +11,10 @@
   margin: 10px;
   height: 80px;
   width: 200px;
-  list-style: none;
-  /* border: 2px solid silver; */
   background-color: rgb(243, 243, 243);
   border-radius: 10px;
   box-shadow: 0 5px 15px -5px #00000070;
-  position: relative;
+  z-index: 5;
 }
 
 .interation__skill:hover {
@@ -35,9 +28,8 @@
 .fas.fa-pen-nib {
   color: rgb(35, 203, 167);
   left: 10%;
-  position: absolute;
   font-size: 30px;
-  top: 25px;
+  padding-right: 10px;
 }
 
 .interation__skill__designer,

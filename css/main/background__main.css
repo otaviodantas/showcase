@@ -1,21 +1,9 @@
-.background {
-  position: absolute;
-}
-
 .background__wave {
   position: fixed;
-  transform: rotate(-90deg);
-  left: -700px;
+  height: 100%;
+  left: 0;
+  bottom: 0;
   z-index: 2;
-}
-
-.background__central {
-  float: left;
-  position: absolute;
-  left: 150px;
-  top: 90px;
-  width: 600px;
-  z-index: 1;
 }
 
 .background__blob3,
