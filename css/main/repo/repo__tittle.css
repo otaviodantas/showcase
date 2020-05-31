@@ -1,0 +1,12 @@
+.repository__container__tittle {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-right: 100vh;
+}
+
+.repository__tittle {
+  border-left: 20px solid rgb(190, 144, 212);
+  padding: 10px;
+}

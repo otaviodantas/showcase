@@ -1,0 +1,18 @@
+.container__button__scroll__skill__down {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.container__button__scroll__skill__up {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  font-size: 30px;
+  transform: rotate(180deg);
+}
+
+.button__scroll__skill {
+  color: rgb(35, 203, 167);
+  text-decoration: none;
+}

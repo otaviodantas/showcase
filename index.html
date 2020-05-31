@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="css/main/socialbuttons.css">
     <link rel="stylesheet" href="css/main/background__main.css">
     <link rel="stylesheet" href="css/main/scroll.css">
+    <link rel="stylesheet" href="css/main/grid__main.css">
 
-    <link rel="stylesheet" href="css/skill/skill.css">
-    <link rel="stylesheet" href="css/skill/grid_skill.css">
-    <link rel="stylesheet" href="css/skill/style_icon.css">
-    <link rel="stylesheet" href="css/skill/skill_tittle.css">
+    <link rel="stylesheet" href="css/main/skill/skill.css">
+    <link rel="stylesheet" href="css/main/skill/grid_skill.css">
+    <link rel="stylesheet" href="css/main/skill/style_icon.css">
+    <link rel="stylesheet" href="css/main/skill/skill_tittle.css">
+    <link rel="stylesheet" href="css/main/skill/scroll_button.css">
+    <link rel="stylesheet" href="css/main/repo/repo__tittle.css">
 
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/master.css" type="text/css" /> -->
@@ -50,108 +53,131 @@
     </header>
 
     <main id="section1">
-        <img class="background__wave" src="img/blober.svg" />
-        <img class="background__blob2" src="img/blob2.svg">
-        <img class="background__blob3" src="img/blob3.svg">
+        <section class="container__main">
+            <img class="background__wave" src="img/blober.svg">
+            <img class="background__blob2" src="img/blob2.svg">
+            <img class="background__blob3" src="img/blob3.svg">
 
-        <section class="central__container">
-            <div class="central__img">
-                <img class="background__central" src="img/main.png" alt="Pessoa usando o notebook" />
-            </div>
-
-            <section class="apresentation">
-                <div class="apresetation__container">
-                    <div class="apresentation__container__text">
-                        <h1 class="apresentation__tittle">Olá, eu sou o Otávio</h1>
-                        <h2 class="apresentation__subtittle">Desenvolvedor.py</h2>
-                        <p class="apresentation__sinops">Estudante de engenharia, apaixonado por Python, Machine
-                            Learning e
-                            afins,
-                        </p>aspirante em desenvolvimento Front-end, com um toque de Designer.</p>
-                        <p class="apresentation__email">Email:</p>
-                        <p class="apresentation__sourceemail">otavio-dantas@live.com</p>
+            <section class="scop">
+                <div class="central__container">
+                    <div class="central__img">
+                        <img class="background__central" src="img/main.png" alt="Pessoa usando o notebook" />
                     </div>
 
-                    <div class="social-buttons">
-                        <a class="btn" href="#">
-                            <i class="far fa-envelope"></i>
-                        </a>
-                        <a class="btn" href="https://www.linkedin.com/in/ot%C3%A1vio-mendon%C3%A7a-694b75180/">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="btn" href="#">
-                            <i class="fab fa-medium-m"></i>
-                        </a>
-                        <a class="btn" href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        </a>
-                    </div>
+                    <section class="apresentation">
+                        <div class="apresetation__container">
+                            <div class="apresentation__container__text">
+                                <h1 class="apresentation__tittle">Olá, eu sou o Otávio</h1>
+                                <h2 class="apresentation__subtittle">Desenvolvedor.py</h2>
+                                <p class="apresentation__sinops">Estudante de engenharia, apaixonado por Python, Machine
+                                    Learning e
+                                    afins,
+                                </p>aspirante em desenvolvimento Front-end, com um toque de Designer.</p>
+                                <p class="apresentation__email">Email:</p>
+                                <p class="apresentation__sourceemail">otavio-dantas@live.com</p>
+                            </div>
+
+                            <div class="social-buttons">
+                                <a class="btn" href="#">
+                                    <i class="far fa-envelope"></i>
+                                </a>
+                                <a class="btn" href="https://www.linkedin.com/in/ot%C3%A1vio-mendon%C3%A7a-694b75180/"
+                                    target="_blanck">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a class="btn" href="https://medium.com/@obrigadoogun" target="_blanck">
+                                    <i class="fab fa-medium-m"></i>
+                                </a>
+                                <a class="btn" href="https://www.instagram.com/insulpotavio/" target="_blanck">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="container__button__scroll">
+                    <a href="#section2" class="button__scroll"><i class="fas fa-angle-down"></i></a>
                 </div>
             </section>
-        </section>
 
-        <div class="container__button__scroll">
-            <a href="#section2" class="button__scroll"><i class="fas fa-angle-down"></i></a>
-        </div>
-    </main>
+            <section class="skill" id="section2">
+                <div class="skill__container__tittle">
+                    <h2 class="skill__tittle">Hard Skills</h2>
+                </div>
 
-    <section class="skill" id="section2">
+                <div class="container__block__skills">
+                    <section class="interation__containter">
+                        <ul class="interation__list">
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <h3 class="interation__skill__python">Python</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3 class="interation__skill__data">Machine Learning</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fas fa-file-code"></i>
+                                </div>
+                                <h3 class="interation__skill__html">HTML/CSS</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <h3 class="interation__skill__js">JavaScript</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fas fa-pen-nib"></i>
+                                </div>
+                                <h3 class="interation__skill__designer">Adobe Illustrator</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fas fa-atom"></i>
+                                </div>
+                                <h3 class="interation__skill__datas">Data Science</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <h3 class="interation__skill__datas">Git</h3>
+                            </li>
+                            <li class="interation__skill">
+                                <div class="container__icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <h3 class="interation__skill__datas">Iot</h3>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
 
-        <div class="skill__container__tittle">
-            <h2 class="skill__tittle">Hard Skills</h2>
-        </div>
-
-        <div class="container__block__skills">
-            <section class="interation__containter">
-                <ul class="interation__list">
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fab fa-python"></i>
-                        </div>
-                        <h3 class="interation__skill__python">Python</h3>
-                    </li>
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h3 class="interation__skill__data">Machine Learning</h3>
-                    </li>
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fas fa-file-code"></i>
-                        </div>
-                        <h3 class="interation__skill__html">HTML/CSS</h3>
-                    </li>
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fab fa-js"></i>
-                        </div>
-                        <h3 class="interation__skill__js">JavaScript</h3>
-                    </li>
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fas fa-pen-nib"></i>
-                        </div>
-                        <h3 class="interation__skill__designer">Adobe Illustrator</h3>
-                    </li>
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fas fa-atom"></i>
-                        </div>
-                        <h3 class="interation__skill__datas">Data Science</h3>
-                    </li>
-                    <li class="interation__skill">
-                        <div class="container__icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <h3 class="interation__skill__datas">Git</h3>
-                    </li>
-                </ul>
+                <div class="container__button__scroll__skill__up">
+                    <a href="#section1" class="button__scroll__skill"><i class="fas fa-angle-down"></i></a>
+                </div>
+                <div class="container__button__scroll__skill__down">
+                    <a href="#section3" class="button__scroll__skill"><i class="fas fa-angle-down"></i></a>
+                </div>
             </section>
-        </div>
 
-    </section>
+            <section id="section3" class="repository">
+                <div class="repository__container__tittle">
+                    <h2 class="repository__tittle">Portifólio</h2>
+                </div>
+                <h3 class="repository__subtittle">Você pode encontrar os meus trabalhos acessando </h3>
+            </section>
+        </section>
+    </main>
 
     <footer></footer>
 </body>

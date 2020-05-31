@@ -10,11 +10,10 @@
 
 .container {
   display: grid;
-  grid-template: 60px 85vh 100vh auto/auto;
+  grid-template: 60px auto auto/auto;
   grid-template-areas:
     "header"
     "main"
-    "skill"
     "footer";
 }
 
@@ -27,14 +26,9 @@ header {
 
 main {
   background-color: white;
-  grid-area: main;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.skill {
-  grid-area: skill;
 }
 
 footer {

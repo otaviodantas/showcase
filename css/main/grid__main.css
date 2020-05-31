@@ -1,0 +1,19 @@
+.container__main {
+  display: grid;
+  grid-template: 100vh 100vh 100vh/1fr;
+  grid-template-areas: "scop" 
+                       "skill" 
+                       "repo";
+}
+
+.scop {
+  grid-area: scop;
+}
+
+.skill {
+  grid-area: skill;
+}
+
+.repository {
+  grid-area: repo;
+}

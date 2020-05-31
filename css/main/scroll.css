@@ -1,4 +1,6 @@
 .container__button__scroll {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
   font-size: 30px;
 }
