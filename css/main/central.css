@@ -3,7 +3,6 @@
   margin-top: 10vh;
   grid-template: auto/1fr 1fr;
   grid-template-areas: "img texto";
-  margin: 0px 10px;
 }
 
 .central__img {
