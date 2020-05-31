@@ -1,0 +1,33 @@
+.interation__list {
+  display: grid;
+  grid-template: 10vh 10vh 10vh 10vh/ 30vw 30vw;
+  grid-template-areas:
+    "python machine"
+    "js html"
+    "datascience designer"
+    "git next";
+  grid-gap: 10px 5vw;
+  font-size: 30px;
+}
+
+.interation__list:nth-child(1) {
+  grid-area: python;
+}
+.interation__list:nth-child(2) {
+  grid-area: machine;
+}
+.interation__list:nth-child(3) {
+  grid-area: js;
+}
+.interation__list:nth-child(4) {
+  grid-area: html;
+}
+.interation__list:nth-child(5) {
+  grid-area: designer;
+}
+.interation__list:nth-child(6) {
+  grid-area: datascience;
+}
+.interation__list:nth-child(7) {
+  grid-area: git;
+}

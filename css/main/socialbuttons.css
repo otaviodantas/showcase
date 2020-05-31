@@ -15,7 +15,7 @@
   color: #0099ff;
   overflow: hidden;
   position: relative;
-  border: .5px solid silver;
+  border: 0.5px solid blue_button;
 }
 
 .btn i {
@@ -60,3 +60,5 @@
     left: -10%;
   }
 }
+
+/*# sourceMappingURL=socialbuttons.css.map */

@@ -1,0 +1,46 @@
+.button__header {
+  display: inline-block;
+  margin-right: 60px;
+  transform: translate(0%,0%);
+}
+
+.button__text__header {
+  padding: 5px 10px;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid silver;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+.button__text__header::before {
+  width: 0%;
+  height: 100%;
+}
+
+.button__text__header:hover {
+  color: white;
+}
+
+.button__text__header:hover::before {
+  width: 100%;
+}
+
+.button__text__header::before {
+  height: 34px;
+  background: #0377c4;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.button__text__header {
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+}

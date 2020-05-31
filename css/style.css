@@ -5,4 +5,39 @@
   text-decoration: none;
   font-family: "Jost", sans-serif;
   max-width: 100%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: grid;
+  grid-template: 60px 85vh 100vh auto/auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "skill"
+    "footer";
+}
+
+header {
+  background: whitesmoke;
+  grid-area: header;
+  box-shadow: 0 5px 15px -5px #00000070;
+  z-index: 5;
+}
+
+main {
+  background-color: white;
+  grid-area: main;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill {
+  grid-area: skill;
+}
+
+footer {
+  background: indianred;
+  grid-area: footer;
 }

@@ -1,0 +1,20 @@
+.container__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 203, 167);
+  width: 40px;
+  height: 40px;
+}
+
+.fab.fa-github,
+.fas.fa-atom,
+.fab.fa-python,
+.fas.fa-robot,
+.fas.fa-file-code,
+.fab.fa-js,
+.fas.fa-pen-nib {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(35, 203, 167);
+}
