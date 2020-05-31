@@ -1,6 +1,5 @@
 .icons__container__down{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 
 .fab.fa-medium,

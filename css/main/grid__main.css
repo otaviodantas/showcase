@@ -1,9 +1,10 @@
 .container__main {
   display: grid;
-  grid-template: 100vh 100vh 100vh/1fr;
+  grid-template: 100vh 100vh 100vh 50vh/1fr;
   grid-template-areas: "scop" 
                        "skill" 
-                       "repo";
+                       "repo"
+                       "contat";
 }
 
 .scop {
@@ -16,4 +17,8 @@
 
 .repository {
   grid-area: repo;
+}
+
+.contact {
+  grid-area: contat;
 }
