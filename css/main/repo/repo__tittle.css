@@ -3,10 +3,22 @@
   display: flex;
   justify-content: center;
   margin-top: 10vh;
-  margin-right: 100vh;
+  margin-right: 50vw;
 }
 
 .repository__tittle {
   border-left: 20px solid rgb(190, 144, 212);
   padding: 10px;
+}
+
+.container__repository__subtittle {
+  display: inline-block;
+  margin-top: 5vh;
+  margin-left: 11vw;
+  border-bottom: 1px solid silver;
+}
+
+.repository__subtittle {
+  font-weight: normal;
+  padding-bottom: 10px;
 }

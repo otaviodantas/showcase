@@ -1,0 +1,11 @@
+.icons__container__down{
+    display: flex;
+    justify-content: center;
+}
+
+.fab.fa-medium,
+.fab.fa-github-square {
+    font-size: 50px;
+    color: rgb(190, 144, 212);
+    padding: 5px;
+}
