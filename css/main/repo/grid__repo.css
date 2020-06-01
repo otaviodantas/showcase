@@ -13,10 +13,10 @@
 
 .avatar__por {
   grid-area: avatar;
-  background-image: url('img/foto1.jpg');
+  background-image: url("/img/foto1.jpg");
 }
 
 .git__por {
   grid: git;
-  background-image: url('img/git.PNG');
+  background-image: url("/img/git.PNG");
 }
