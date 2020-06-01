@@ -19,3 +19,16 @@
 .contat__subtittle {
     font-size: 30px;
 }
+
+.contat_email{
+  font-size: 50px;
+  margin-top: 20px;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(245, 215, 110) ;
+}
+
+.button__scroll__contat{
+  color: rgb(245, 215, 110);
+}

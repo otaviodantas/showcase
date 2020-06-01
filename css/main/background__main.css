@@ -24,3 +24,23 @@
   opacity: 0.4;
   transform: rotate(-80deg);
 }
+
+.background__blob__skill2,
+.background__blob__skill {
+  position: absolute;
+  width: 300px;
+  height: auto;
+}
+
+.background__blob__skill2 {
+  opacity: 0.2;
+  top: 110%;
+  left: 67%;
+}
+
+.background__blob__skill {
+  opacity: 0.3;
+  top: 130%;
+  left: 73%;
+  transform: rotate(-80deg);
+}

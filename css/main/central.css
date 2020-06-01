@@ -8,6 +8,7 @@
 
 .central__img {
   width: 600px;
+  margin-left: 5vw;
   grid-area: img;
 }
 
