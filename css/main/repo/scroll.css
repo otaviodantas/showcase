@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
+  margin-top: 0;
 }
 
 .container__button__scroll__repo__up {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 3vh;
   font-size: 30px;
   transform: rotate(180deg);
 }
